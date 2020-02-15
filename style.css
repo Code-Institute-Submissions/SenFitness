@@ -1,6 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Tomorrow&display=swap');
 
 #navbar{
-background-color: black;
+background-color:black;
+}
+
+#navbar a{
+font-family: Tomorrow;
+color: white;
+}
+
+#navbar a:hover{
+color: rgb(8, 110, 136);
+}
+
+#home-main{
+color: black;
+font-family: Tomorrow;
+}
+
+.home-background{
+background-image: url(assets/img/boxer-1984344_1920.jpg);
+height: 700px;
+background-size: cover;
+}
+
+.main-title{
+color: white;
+font-size: 8vw;
+padding-left: 200px;
+padding-top: 150px;
+}
+
+.main-text{
+color: white;
+font-size: 2.5vw;
+padding-left: 200px;
+}
+
+#about-main{
+font-family: Tomorrow;
+}
+
+#programmes-main{
+color: black;
+font-family: Tomorrow;
 }
 
