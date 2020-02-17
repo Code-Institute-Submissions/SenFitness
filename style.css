@@ -43,8 +43,8 @@ padding-left: 200px;
 
 @media only screen and (max-width: 600px) {
     .main-title {
-        font-size: 70px;
-        padding-left: 50px;
+        font-size: 50px;
+        padding-left: 30px;
         padding-top: 120px;
     }
 }
@@ -52,22 +52,35 @@ padding-left: 200px;
 @media only screen and (max-width: 600px) {
     .main-text {
         font-size: 20px;
-        padding-left: 50px;
+        padding-left: 30px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .home-background {
        height: 500px;
-       background-image: url(assets/img/rain-316580_1280.jpg);
-       
-    }
+       }
 }
 
 /*ABOUT*/
 
 #about-main{
 font-family: Tomorrow;
+color: white;
+}
+
+.about-main-title{
+font-size: 80px;
+padding-left: 100px;
+}
+
+#about-main p{
+font-size: 25px;
+padding-left: 100px;
+}
+
+.about-background{
+background-color: black;
 }
 
 /*PROGRAMMES*/
