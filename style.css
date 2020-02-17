@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Tomorrow&display=swap');
 
-#navbar{
-background-color:black;
+/*NAVBAR*/
+
+#navbar ul{
+background-color: black;
 }
 
 #navbar a{
@@ -13,6 +15,8 @@ color: white;
 color: rgb(8, 110, 136);
 }
 
+/*HOME*/
+
 #home-main{
 color: black;
 font-family: Tomorrow;
@@ -21,7 +25,7 @@ font-family: Tomorrow;
 .home-background{
 background-image: url(assets/img/boxer-1984344_1920.jpg);
 height: 700px;
-background-size: cover;
+background-size:cover;
 }
 
 .main-title{
@@ -37,12 +41,42 @@ font-size: 2.5vw;
 padding-left: 200px;
 }
 
+@media only screen and (max-width: 600px) {
+    .main-title {
+        font-size: 70px;
+        padding-left: 50px;
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-text {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-background {
+       height: 500px;
+       background-image: url(assets/img/rain-316580_1280.jpg);
+       
+    }
+}
+
+/*ABOUT*/
+
 #about-main{
 font-family: Tomorrow;
 }
+
+/*PROGRAMMES*/
 
 #programmes-main{
 color: black;
 font-family: Tomorrow;
 }
 
+/*GALLERY*/
+
+/*SIGN UP*/
