@@ -65,19 +65,39 @@ padding-left: 200px;
 /*ABOUT*/
 
 #about-main{
-font-family: Tomorrow;
 color: white;
 }
 
 .about-main-title{
 font-size: 80px;
 padding-left: 100px;
+font-family: Tomorrow;
 }
 
 #about-main p{
 font-size: 25px;
 padding-left: 100px;
+padding-right: 100px;
+font-family: Tomorrow;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-main-title {
+       text-align: center;
+       padding-left: 20px;
+       font-size: 40px;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+    #about-main p {
+       text-align: center;
+       padding-left: 20px;
+       padding-right: 20px;
+       font-size: 20px;
+       }
+}
+
 
 .about-background{
 background-color: black;
@@ -88,7 +108,57 @@ background-color: black;
 #programmes-main{
 color: black;
 font-family: Tomorrow;
+background-image: url(assets/img/selective-focus-of-a-boxer-s-fist-3562117.jpg);
+height: 750px;
+background-size: cover;
+text-align: center;
 }
+
+.programmes-main-title{
+color: white;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+.pro{
+background-color: rgba( 1,1,1,0.7);
+color: white;
+font-size: 20px;
+}
+
+.pro a{
+color: white;
+font-size: 40px;
+}
+
+.pro a:hover{
+color: rgb(119, 24, 80);
+text-decoration: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #programmes-main {
+       background-color: rgb(8, 110, 136);
+       height: max-content;
+       }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .pro a {
+      font-size: 20px;
+       }
+}
+
+@media only screen and (max-width: 1400px) {
+    .pro {
+      font-size: 15px;
+       }
+}
+
+
 
 /*GALLERY*/
 
