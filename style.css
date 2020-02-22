@@ -192,6 +192,18 @@ text-align: center;
 
 /*SIGN UP*/
 
+ .signup-form{margin-top: 150px;
+  color: #fff;
+  background-color:rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;}
+  
+  .signup-form h2{color: #fafafa;
+    margin-bottom: 20px;}
+  
+
 /*FOOTER*/
 
 .social-media{
