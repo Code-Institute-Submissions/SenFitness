@@ -191,17 +191,26 @@ text-align: center;
 
 
 /*SIGN UP*/
+.form-section{
+color: #fff;
+background-color:rgba(60, 60, 60, 0.6);
+max-width: 400px;
+position: absolute;
+left: 10%;
+}
 
- .signup-form{margin-top: 150px;
-  color: #fff;
-  background-color:rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;}
-  
-  .signup-form h2{color: #fafafa;
-    margin-bottom: 20px;}
+#sign-up-main{
+background-color: black;
+}
+
+#sign-up-main h2{
+color: #fafafa;
+font-family: Tomorrow;
+font-size: 50px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+}
   
 
 /*FOOTER*/
