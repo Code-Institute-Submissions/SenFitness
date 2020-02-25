@@ -26,17 +26,22 @@
 	padding: none;
 }
 
+#home-main .container-fluid {
+   padding: 0;
+}
+
 .home-background {
 	background-image: url(assets/img/boxer-1984344_1920.jpg);
 	height: 700px;
 	background-size: cover;
 }
 
+
 .main-title {
 	color: white;
 	font-size: 8vw;
 	padding-left: 200px;
-	padding-top: 150px;
+	padding-top: 170px;
 	font-family: Tomorrow;
 }
 
@@ -76,17 +81,21 @@
 	font-family: Tomorrow;
 }
 
+#about-main .container-fluid{
+padding: 0;
+}
+
 .about-main-title {
 	font-size: 80px;
-	padding-left: 100px;
+	padding-left: 150px;
 	font-family: Tomorrow;
 	color: white;
 }
 
 #about-main p {
 	font-size: 25px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
 	font-family: Tomorrow;
 	color: white;
 	font-style: italic;
@@ -183,7 +192,11 @@
 	padding-bottom: 20px;
 	text-align: center;
 }
-
+@media only screen and (max-width: 600px) {
+	#gallery-main img {
+		align-content: center;
+	}
+}
 
 /*SIGN UP*/
 
