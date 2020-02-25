@@ -2,236 +2,231 @@
 
 /*NAVBAR*/
 
-#navbar ul{
-background-color: black;
+#navbar ul {
+	background-color: black;
 }
 
-#navbar a{
-font-family: Tomorrow;
-color: white;
+#navbar a {
+	font-family: Tomorrow;
+	color: white;
 }
 
-#navbar a:hover{
-color: rgb(8, 110, 136);
+#navbar a:hover {
+	color: rgb(8, 110, 136);
 }
+
 
 /*HOME*/
 
-#home-main{
-color: black;
-font-family: Tomorrow;
-border: none;
-margin: 0;
-padding: none;
+#home-main {
+	color: black;
+	font-family: Tomorrow;
+	border: none;
+	margin: 0;
+	padding: none;
 }
 
-.home-background{
-background-image: url(assets/img/boxer-1984344_1920.jpg);
-height: 700px;
-background-size:cover;
+.home-background {
+	background-image: url(assets/img/boxer-1984344_1920.jpg);
+	height: 700px;
+	background-size: cover;
 }
 
-.main-title{
-color: white;
-font-size: 8vw;
-padding-left: 200px;
-padding-top: 150px;
-font-family: Tomorrow;
+.main-title {
+	color: white;
+	font-size: 8vw;
+	padding-left: 200px;
+	padding-top: 150px;
+	font-family: Tomorrow;
 }
 
-.main-text{
-color: white;
-font-size: 2.5vw;
-padding-left: 200px;
-font-family: Tomorrow;
-}
-
-@media only screen and (max-width: 600px) {
-    .main-title {
-        font-size: 50px;
-        padding-left: 30px;
-        padding-top: 120px;
-    }
+.main-text {
+	color: white;
+	font-size: 2.5vw;
+	padding-left: 200px;
+	font-family: Tomorrow;
 }
 
 @media only screen and (max-width: 600px) {
-    .main-text {
-        font-size: 20px;
-        padding-left: 30px;
-    }
+	.main-title {
+		font-size: 50px;
+		padding-left: 30px;
+		padding-top: 120px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-    .home-background {
-       height: 500px;
-       }
+	.main-text {
+		font-size: 20px;
+		padding-left: 30px;
+	}
 }
+
+@media only screen and (max-width: 600px) {
+	.home-background {
+		height: 500px;
+	}
+}
+
 
 /*ABOUT*/
 
-#about-main{
-color: white;
-font-family: Tomorrow;
+#about-main {
+	color: white;
+	font-family: Tomorrow;
 }
 
-.about-main-title{
-font-size: 80px;
-padding-left: 100px;
-font-family: Tomorrow;
-color: white;
+.about-main-title {
+	font-size: 80px;
+	padding-left: 100px;
+	font-family: Tomorrow;
+	color: white;
 }
 
-#about-main p{
-font-size: 25px;
-padding-left: 100px;
-padding-right: 100px;
-font-family: Tomorrow;
-color: white;
-font-style: italic;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    .about-main-title {
-       text-align: center;
-       padding-left: 20px;
-       font-size: 40px;
-       }
+#about-main p {
+	font-size: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: Tomorrow;
+	color: white;
+	font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
-    #about-main p {
-       text-align: center;
-       padding-left: 20px;
-       padding-right: 20px;
-       font-size: 20px;
-       }
+	.about-main-title {
+		text-align: center;
+		padding-left: 20px;
+		font-size: 40px;
+	}
 }
 
-
-.about-background{
-background-color: black;
+@media only screen and (max-width: 600px) {
+	#about-main p {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 20px;
+	}
 }
+
+.about-background {
+	background-color: black;
+}
+
 
 /*PROGRAMMES*/
 
-#programmes-main{
-color: black;
-font-family: Tomorrow;
-background-image: url(assets/img/selective-focus-of-a-boxer-s-fist-3562117.jpg);
-height: 750px;
-background-size: cover;
-text-align: center;
+#programmes-main {
+	color: black;
+	font-family: Tomorrow;
+	background-image: url(assets/img/selective-focus-of-a-boxer-s-fist-3562117.jpg);
+	height: 750px;
+	background-size: cover;
+	text-align: center;
 }
 
-.programmes-main-title{
-color: white;
-font-size: 50px;
-padding-top: 30px;
-padding-bottom: 20px;
+.programmes-main-title {
+	color: white;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
-.pro{
-background-color: rgba( 1,1,1,0.6);
-color: white;
-font-size: 20px;
+.pro {
+	background-color: rgba( 1, 1, 1, 0.6);
+	color: white;
+	font-size: 20px;
 }
 
-.pro a{
-color: white;
-font-size: 40px;
-letter-spacing: 3px;
+.pro a {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 3px;
 }
 
-.pro a:hover{
-color: rgb(119, 24, 80);
-text-decoration: none;
+.pro a:hover {
+	color: rgb(119, 24, 80);
+	text-decoration: none;
 }
-
 
 @media only screen and (max-width: 900px) {
-    #programmes-main {
-       background-color: rgb(8, 110, 136);
-       height: max-content;
-       }
+	#programmes-main {
+		background-color: rgb(8, 110, 136);
+		height: max-content;
+	}
 }
 
-
 @media only screen and (max-width: 1000px) {
-    .pro a {
-      font-size: 20px;
-       }
+	.pro a {
+		font-size: 20px;
+	}
 }
 
 @media only screen and (max-width: 1400px) {
-    .pro {
-      font-size: 15px;
-       }
+	.pro {
+		font-size: 15px;
+	}
 }
-
 
 
 /*GALLERY*/
 
-#gallery-main{
-background-color:black;
+#gallery-main {
+	background-color: black;
 }
 
-.gallery-main-title{
-color: white;
-font-family: Tomorrow;
-font-size: 50px;
-padding-top: 30px;
-padding-bottom: 20px;
-text-align: center;
+.gallery-main-title {
+	color: white;
+	font-family: Tomorrow;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
 }
-
-
 
 
 /*SIGN UP*/
-.form-section{
-color: #fff;
-background-color:rgba(60, 60, 60, 0.6);
-max-width: 400px;
-position: absolute;
-left: 10%;
+
+.form-section {
+	color: #fff;
+	background-color: rgba(60, 60, 60, 0.6);
+	max-width: 400px;
+	position: absolute;
+	left: 10%;
 }
 
-#sign-up-main{
-background-color: black;
+#sign-up-main {
+	background-color: black;
 }
 
-#sign-up-main h2{
-color: #fafafa;
-font-family: Tomorrow;
-font-size: 50px;
-text-align: center;
-padding-top: 30px;
-padding-bottom: 20px;
+#sign-up-main h2 {
+	color: #fafafa;
+	font-family: Tomorrow;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
-  
+
 
 /*FOOTER*/
 
-.social-media{
-text-align: center;
-background-color: black;
+.social-media {
+	text-align: center;
+	background-color: black;
 }
 
-.social-media li{
-display: inline;
+.social-media li {
+	display: inline;
 }
 
-.social-media i{
-font-size: 160%;
-margin: 1%;
-padding: 5%;
-color:white;
+.social-media i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: white;
 }
 
-.social-media i:hover{
-color: rgb(119, 24, 80);
+.social-media i:hover {
+	color: rgb(119, 24, 80);
 }
-
