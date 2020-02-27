@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Tomorrow&display=swap');
 
 /*NAVBAR*/
-
-#navbar ul {
-	background-color: black;
+#navbar-main{
+    background-color: black;
 }
 
-#navbar a {
-	font-family: Tomorrow;
-	color: white;
+.fixed-top{
+    background-color:black;
+    height: 45px;
+}
+nav li a{
+    font-family: Tomorrow;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 
-#navbar a:hover {
-	color: rgb(8, 110, 136);
+nav li a:hover{
+    color: rgb(20, 177, 189);
 }
 
-
+#navbar-main ul{
+    float:right;
+}
+.navbar-toggler-icon{
+    color: rgb(201, 76, 76);
+}
 /*HOME*/
 
 #home-main {
@@ -52,11 +62,11 @@
 	font-family: Tomorrow;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 731px) {
 	.main-title {
 		font-size: 50px;
 		padding-left: 30px;
-		padding-top: 120px;
+		padding-top: 200px;
 	}
 }
 
@@ -68,8 +78,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.home-background {
-		height: 500px;
+	.home-background{
+		height: 400px;
 	}
 }
 
@@ -79,18 +89,22 @@
 #about-main {
 	color: white;
 	font-family: Tomorrow;
+    text-align: center;
 }
 
 #about-main .container-fluid{
 padding: 0;
 }
 
-.about-main-title {
-	font-size: 80px;
-	padding-left: 150px;
+.about-main-title{
+     text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 	font-family: Tomorrow;
 	color: white;
 }
+
 
 #about-main p {
 	font-size: 25px;
@@ -99,27 +113,36 @@ padding: 0;
 	font-family: Tomorrow;
 	color: white;
 	font-style: italic;
+    text-align: center;
+}
+
+.about-background{
+height: 700px;
 }
 
 @media only screen and (max-width: 600px) {
 	.about-main-title {
-		text-align: center;
-		padding-left: 20px;
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	#about-main p {
 		text-align: center;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
 		font-size: 20px;
 	}
 }
 
 .about-background {
 	background-color: black;
+}
+
+@media only screen and (max-width: 731px) {
+	#about-background {
+    height: max-content;
+    }
 }
 
 
@@ -154,7 +177,7 @@ padding: 0;
 }
 
 .pro a:hover {
-	color: rgb(119, 24, 80);
+	color: rgb(20, 177, 189);
 	text-decoration: none;
 }
 
@@ -202,14 +225,18 @@ padding: 0;
 
 .form-section {
 	color: #fff;
-	background-color: rgba(60, 60, 60, 0.6);
+	background-color: rgba(8, 162, 189, 0.6);
 	max-width: 400px;
-	position: absolute;
 	left: 10%;
+    font-family: Tomorrow;
+    font-size: 25px;
+    padding: 20px;
 }
 
 #sign-up-main {
-	background-color: black;
+	background-image: url(assets/img/blur-chains-chrome-close-up-220237.jpg);
+    background-size: cover;
+    height: 700px;
 }
 
 #sign-up-main h2 {
@@ -219,6 +246,14 @@ padding: 0;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 20px;
+}
+
+.button{
+    background: black;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    
 }
 
 
@@ -241,5 +276,5 @@ padding: 0;
 }
 
 .social-media i:hover {
-	color: rgb(119, 24, 80);
+	color: rgb(20, 177, 189);
 }

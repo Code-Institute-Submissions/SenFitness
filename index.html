@@ -11,27 +11,33 @@
    </head>
    <body>
       <!--NAVBAR-->
-      <section id="navbar">
-         <nav class="fixed-top">
-            <ul class="nav justify-content-end">
-               <li class="nav-item">
-                  <a class="nav-link active" href="#home-main">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#about-main">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#programmes-main">Programmes</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#gallery-main">Gallery</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#sign-up-main">Sign Up</a>
-               </li>
-            </ul>
-         </nav>
-      </section>
+<section id="navbar-main">
+ <nav class="navbar navbar-expand-lg fixed-top">
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ml-auto justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#home-main">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-main">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#programmes-main">Programmes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery-main">Gallery</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#sign-up-main">Sign Up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
       <!--HOME-->
       <section id="home-main">
          <div class="container-fluid">
@@ -64,12 +70,10 @@
                              
                   <div class="row">
                                   
-                     <h2 class="about-main-title">About</h2>
+                     <h2 class="about-main-title mx-auto">About</h2>
                                    
                      <p>SenFitness is about helping you find the true meaning behind strength. About helping you discover your inner strength, embrace it and release it. We want to help you find a passion for training and fitness. We will be here throughout your entire journey to support you. So if you're looking for a challenge and willing to get out your comfort zone, sign up!</p>
-                     <p>SenFitness is a fitness center based in London. We have an exceptional gym with equipment that meets very high standards. We also offer an amazing range of fitness programmes to help you find your perfect training routine.</p>
-                     <p>Monthly Price : £30.
-                     <br>The location is : 27 West Street, North London, N54 8ZV.</p>
+                     <p>SenFitness is a fitness center based in London. We have an exceptional gym with equipment that meets very high standards. We also offer an amazing range of fitness programmes to help you find your perfect training routine. <br>Monthly Price : £30. <br>The location is : 27 West Street, North London, N54 8ZV.</p>
                                  
                   </div>
                           
@@ -208,16 +212,16 @@
       <!--SIGN UP-->
       <section id="sign-up-main">
          <h2>Sign Up!</h2>
-         <form class="form-section" method="post" action="https://formdump.codeinstitute.net/">
+         <form class="form-section mx-auto" method="post" action="https://formdump.codeinstitute.net/">
                <label for="fname">First Name</label>
-               <input id="fname" name="first_name" type="text" required>
-               <label for="lname">Last Name</label>
-               <input id="lname" name="last_name" type="text" required>
-               <label for="email">Email Address</label>
-               <input id="email" name="email_address" type="email" required>
-               <input type="submit" value="Sign Up!">
+               <input id="fname" name="first_name" type="text" required="">
+               <br><label for="lname">Last Name</label>
+               <input id="lname" name="last_name" type="text" required="">
+               <br><label for="email">Email Address</label>
+               <input id="email" name="email_address" type="email" required="">
+               <input class="button" type="submit" value="Sign Up!">
          </form>
-      </section>
+      </section> 
       <!--FOOTER-->
       <section id="footer">
          <footer>
